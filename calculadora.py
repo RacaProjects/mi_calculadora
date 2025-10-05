@@ -16,6 +16,11 @@ def dividir(a: float, b: float) -> float:
         raise ValueError("No se puede dividir por cero.")
     return a / b
 
+def potencia(a: float, b: float) -> float:
+    #Calcula a elevado a la b
+    return a**b
+
+
 #Pediremos que el usuario digite dos numeros para hacerlo mas didactico
 
 print ("Calculdora de dos numeros")
